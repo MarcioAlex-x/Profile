@@ -1,0 +1,50 @@
+.container-fluid{
+    border: solid 1px #ccc;
+    background-image:url(fundo-de-tecnologia-gradiente-geometrico-azul_52683-78527.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+}
+@keyframes piscar1 {
+    0%{text-shadow: 0 0 20px white;}
+    20%{text-shadow: 0 0 80px white;}
+    40%{text-shadow: 0 0 0px white;}
+    60%{text-shadow: 0 0 200px white;}
+    80%{text-shadow: 0 0 5px white;}
+    100%{text-shadow: 0 0 80px white;}
+}
+@keyframes piscar2 {
+    0%{text-shadow: 0 0 20px white;}
+    10%{text-shadow: 0 0 180px white;}
+    20%{text-shadow: 0 0 50px white;}
+    30%{text-shadow: 0 0 200px white;}
+    40%{text-shadow: 0 0 500px white;}
+    50%{text-shadow: 0 0 80px white;}
+    60%{text-shadow: 0 0 200px white;}
+    70%{text-shadow: 0 0 0px white;}
+    80%{text-shadow: 0 0 0px white;}
+    90%{text-shadow: 0 0 200px white;}
+    100%{text-shadow: 0 0 5px white;}
+}   
+@keyframes veloc1 {
+    0%{margin-left: 0;}
+    100%{margin-left: 100%;}
+}
+h1, h3{
+    text-align: center;
+    color: white;
+    animation: piscar1 1s infinite;
+}
+li{
+    text-align: center;
+    list-style: none;
+    font-size: 1.2em;
+    color: white;
+    animation: piscar2 2s infinite;
+    
+}
+
+
+
+
